@@ -13,8 +13,7 @@ Lack of transparency for customers,
 This project replaces manual queue handling with an automated, real-time, software-based solution.
 
 
-****System Overview**
-**
+**System Overview**
 
 The system follows a client–server architecture:
 Clients interact through a web interface,
@@ -23,7 +22,7 @@ WebSockets broadcast live updates,
 MySQL stores persistent data.
 
 
-****Architecture Components:*****
+**Architecture Components:**
 
 Client (User / Counter / Admin)
 FastAPI Backend
@@ -33,8 +32,8 @@ WebSocket Manager
 MySQL Database
 
 
-****System Workflow**
-**
+**System Workflow**
+
 
 User joins the queue,
 Token is generated and stored,
